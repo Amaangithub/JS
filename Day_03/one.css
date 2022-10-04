@@ -1,0 +1,11 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    background-image: url(./Exaltechs\ Sep-22\ Evening\ 20221002_134030.jpg);
+    background-repeat: no-repeat;
+    height: 150vh;
+    /* width: 100%; */
+}
