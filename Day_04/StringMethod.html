@@ -1,13 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>String Method</title>
-</head>
-<body>
-    
+  </head>
+  
+  <body>
+    <p>--------------Length---------------</p>
+    <script>
+      var str = "Learning FED at ExalTech";
+      var b = str.length;
+      document.write(b);
+    </script>
 
-<script src="./StringMethod.js"></script></body>
+    <p>------------------Includes-----------</p>
+    <script>
+      var str = "Learning FED at ExalTech";
+      var b = str.includes("ExalTech");
+      document.write(b);
+    </script>
+
+    <p>------------------Replace-----------</p>
+    <script>
+      var am = "console world";
+      var a = am.replace("console", "my");
+      document.write(a);
+    </script>
+
+    <p>------------------trimRight-----------</p>
+    <script>
+      var am = "TrimRight           ";
+      var a = am.trimRight();
+      document.write(am);
+    </script>
+
+    <p>------------------character At-----------</p>
+    <script>
+      var de = "character At";
+      var a = de.charAt(0);
+      document.write(a);
+    </script>
+    <script>
+      var de = "character At";
+      var a = de.charAt(1);
+      document.write(a);
+    </script>
+    <script>
+      var de = "character At";
+      var a = de.charAt(2);
+      document.write(a);
+    </script>
+    <script>
+      var de = "character At";
+      var a = de.charAt(3);
+      document.write(a);
+    </script>
+    <script>
+      var de = "character At";
+      var a = de.charAt(4);
+      document.write(a);
+    </script>
+    <script>
+      var de = "character At";
+      var a = de.charAt(5);
+      document.write(a);
+    </script>
+    <script>
+      var de = "character At";
+      var a = de.charAt(6);
+      document.write(a);
+    </script>
+    <script>
+      var de = "character At";
+      var a = de.charAt(7);
+      document.write(a);
+    </script>
+    <script>
+      var de = "character At";
+      var a = de.charAt(8);
+      document.write(a);
+    </script>
+    <script>
+      var de = "character At";
+      var a = de.charAt(9);
+      document.write(a);
+    </script>
+    <script>
+      var de = "character At";
+      var a = de.charAt(10);
+      document.write(a);
+    </script>
+    <script>
+      var de = "character At";
+      var a = de.charAt(11);
+      document.write(a);
+    </script>
+    <script>
+      var de = "character At";
+      var a = de.charAt(12);
+      document.write(a);
+    </script>
+
+    <p>------------------padEnd-----------</p>
+    <script>
+      var bc = "pad";
+      var cd = bc.padEnd(7, " End");
+      document.write(cd);
+    </script>
+
+    <p>------------------padStart-----------</p>
+    <script>
+      var bc = " Start";
+      var cd = bc.padStart(9, "pad");
+      document.write(cd);
+    </script>
+
+    <p>------------------concat-----------</p>
+    <script>
+      var bc = "cat";
+      var ed = "con";
+      var cd = bc.concat(
+        " ****************we use this to add two strings *************** ",
+        ed
+      );
+      document.write(cd);
+    </script>
+
+    <p>------------------Includes-----------</p>
+    <script>
+      var bc = "we learned string Methods yesterday ";
+      var cd = bc.includes("A");
+      document.write(cd);
+    </script>
+    <br />
+    <script>
+      var bc = "we learned string Methods yesterday ";
+      var cd = bc.includes("m");
+      document.write(cd);
+    </script>
+    <p>------------------split-----------</p>
+    <script>
+      var bc = "we learned string Methods yesterday ";
+      var cd = bc.split("");
+      document.write(cd);
+    </script>
+    <br />
+    <script>
+      var bc = "we learned string Methods yesterday ";
+      var cd = bc.split("-");
+      document.write(cd);
+      console.log(cd);
+    </script>
+    <br />
+
+    <p>------------slice-------------</p>
+    <script>
+      var bc = "we learned string Methods yesterday ";
+      var cd = bc.slice(" ");
+      document.write(cd);
+    </script>
+    <p>------------toUpperCase-------------</p>
+    <script>
+      var bc = "we learned string methods yesterday ";
+      var cd = bc.toUpperCase();
+      document.write(cd);
+    </script>
+    <p>------------toLowerCase-------------</p>
+    <script>
+      var bc = "WE LEARNED STRING METHODS YESTERDAY ";
+      var cd = bc.toLowerCase();
+     document.write(cd);
+    </script>
+    <p>------------slice-------------</p>
+    <script>
+      var bc = "we learned string Methods yesterday ";
+      var cd = bc.slice(" ");
+      document.write(cd);
+    </script>
+
+    <p>-----lastIndexOf------</p>
+    <script>
+      var az = "amaan";
+      var bz = az.lastIndexOf(length-1);
+      document.write(bz);
+    </script>
+    <p>-----startWith------</p>
+    <script>
+      var az = "amaan";
+      var bz = az.startsWith(a);
+      document.write(bz);
+    </script>
+
+    <p>-----startWith------</p>
+    <script>
+      var am = "amaan";
+      var bz = am.startsWith(m);
+      document.write(bz);
+    </script>
+
+  <p>-----lorem------</p>
+    <script>
+      var az = "amaan";
+      var bz = az.lastIndexOf(length-1);
+      document.write(bz);
+    </script>
+    <p>-----lorem------</p>
+    <script>
+      var az = "amaan";
+      var bz = az.lastIndexOf(length-1);
+      document.write(bz);
+    </script>
+    <p>-----lorem------</p>
+    <script>
+      var az = "amaan";
+      var bz = az.lastIndexOf(length-1);
+      document.write(bz);
+    </script>
+    <p>-----lorem------</p>
+    <script>
+      var az = "amaan";
+      var bz = az.lastIndexOf(length-1);
+      document.write(bz);
+    </script>
+    <p>-----lorem------</p>
+    <script>
+      var az = "amaan";
+      var bz = az.lastIndexOf(length-1);
+      document.write(bz);
+    </script>
+    <p>-----lorem------</p>
+    <script>
+      var az = "amaan";
+      var bz = az.lastIndexOf(length-1);
+      document.write(bz);
+    </script>
+    <p>
+      index of
+      includes
+      trimRight
+      trimleft
+      trimstart
+      trimend
+      trimend
+      endswith
+      startswith
+      padStart
+      padend
+      replace
+      concat 
+      toLowerCase
+      toUpperCase
+      toLocaleUppercase 
+      length
+      charAt 
+      slice
+      substring
+      substr 
+      split
+
+    </p>
+
+    <script src="./StringMethod.js"></script>
+  </body>
 </html>
